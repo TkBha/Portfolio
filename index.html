@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio Website</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        h1 {
+            color: white;
+            font-size: 3rem;
+        }
+
+        body {
+            background-color: white;
+            color: black;
+            font-family: sans-serif;
+            background-image: url(https://www.jesusislife.in/wp-content/uploads/2019/05/Savin-NY-Website-Background-Web.jpg);
+            background-size: 1000px 500px;
+            background-repeat: repeat-x;
+            /* background-size: cover; */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: #3c04bd;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .landingpage {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            align-items: center;
+        }
+
+
+        .introduction {
+            font-size: 40px;
+            font-weight: bold;
+            color: #050A30;
+            margin-top: 10%;
+
+        }
+
+        .name {
+            color: #FF8210;
+            font-weight: bold;
+
+
+        }
+
+        .Secondline {
+            font-size: 30px;
+        }
+
+        footer {
+            position: relative;
+            clear: both;
+            background-color: #3c04bd;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .section-line {
+            margin: 80px 0 0;
+            height: 5px;
+            background-color: violet;
+            /* border: 5px solid violet; */
+        }
+
+        .navbar-line {
+            background-color: violet;
+            height: 5px;
+        }
+
+        .Main-Content {
+            background-color: #050A30;
+            height: 800px;
+        }
+
+        h2 {
+            margin-left: 50px;
+            color: white;
+            padding-top: 30px;
+        }
+
+        .first-paragraph {
+            color: white;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 10px 10px 50px;
+        }
+
+        ul>li {
+            color: white;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 10px 10px 70px;
+        }
+
+        .third-paragraph {
+            color: white;
+            justify-content: center;
+            align-items: center;
+            margin: 0px 20px 10px 0px;
+        }
+
+        img {
+            width: 50px;
+            justify-content: center;
+            align-items: center;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .third-paragraph-box {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h1>My Portfolio Website</h1>
+        <div class="right">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="navbar-line"></div>
+
+    <section class="landingpage">
+        <div class="introduction">
+            Hi There, <br>
+            I'm <span class="name">Tanishka Behera</span>
+            <div class="Secondline">And I am Into Web Developer</div>
+        </div>
+    </section>
+    <br>
+    <div class="section-line"></div>
+
+    <section class="Main-Content">
+        <h2>About Me:</h2>
+        <p class="first-paragraph">"Hello, my name is Tanishka Behera. I'm a student pursuing a degree in Electronics
+            and
+            Communication Engineering at LNCT Group of Colleges. My academic journey revolves around the fascinating
+            world of electronics and communication. where I've been exploring the intricacies of this field.
+            Additionally, my current focus is on learning coding languages such as HTML, Python, and Java."</p>
+
+        <h2>Education:</h2>
+        <p class="second-paragraph">
+        <ul>
+            <li>2nd year student at LNCT,Bhopal</li>
+            <li>I've Completed High School from DPS BHILAI</li>
+        </ul>
+        </p>
+
+        <h2>Licenses & certifications</h2>
+        <div class="third-paragraph-box">
+            <ul class="third-paragraph">
+                <li>NCC A CERTIFICATE NATIONAL CADET CORPS - India</li>
+            </ul>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_National_Cadet_Corps_%28India%29.png/512px-Emblem_of_National_Cadet_Corps_%28India%29.png"
+                alt="NCC logo">
+        </div>
+
+        <h2>Skills</h2>
+        <p class="fourth-paragraph">
+        <ul>
+            <li>HTMl (Programming language)</li>
+            <li>Communication</li>
+            <li>Graphic Design</li>
+            <li>Animation</li>
+            <li>Java (Programming language)</li>
+            <li>Python (Programming language)</li>
+            <li>Video Editing</li>
+        </ul>
+        </p>
+    </section>
+
+</body>
+
+<footer>&#169; Tanishka Behera</footer>
+
+</html>
